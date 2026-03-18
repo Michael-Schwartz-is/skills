@@ -85,7 +85,7 @@ Feed samples into the analysis prompt with the five forensic dimensions:
 - Archetype listed but not operationalized — needs a clear AI-default override
 - System prompt over 200 words — dilutes signal. Best prompts encode 5-7 hard rules, not 15 soft suggestions
 
-**Example profile structure:** See [example-profile.md](example-profile.md)
+**Full example profile:** See [example-profile.md](example-profile.md) — fictional persona with all output sections: Voice Snapshot, Top 5 Signature Elements, Structural Constraints, Sentence Templates, Don't List, Archetype Profile, System Prompt, Calibration Note.
 
 ## Phase 4: Calibrate
 
