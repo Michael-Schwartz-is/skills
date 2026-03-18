@@ -1,44 +1,23 @@
 # Voice DNA Extraction
 
-Make AI actually sound like you (or your client, or anyone).
+Make AI write LinkedIn posts that actually sound like you.
 
 ## The Problem
 
-You paste your writing into ChatGPT or Claude, ask it to "write in my style," and get back something that sounds like a LinkedIn template with your name on it. That's because "write casually" or "match my tone" doesn't give AI enough to work with.
+You ask AI to "write in my style" and get back something that sounds like every other LinkedIn post. Generic hooks, bullet points, "here's what I learned" energy. It doesn't sound like you because AI has no idea how you actually write.
 
 ## What This Does
 
-This is a process for extracting someone's real writing voice — the sentence rhythms, word choices, paragraph shapes, and habits that make their writing sound like *them* — and packaging it into a system prompt that any AI can follow.
+This is a process for extracting your real writing voice — your sentence rhythms, word choices, the way you open and close a post — and turning it into a prompt that AI can follow. You feed it a few things you've written, it analyzes the patterns, and you get back a profile that makes AI drafts sound like *you* wrote them.
 
-The output is a **Voice DNA Profile**: a structured file with enforceable rules, sentence templates pulled from real writing, and a ready-to-paste system prompt. Not vibes. Actual patterns.
+Works for your own voice or a client's. Great for first drafts, organizing messy thoughts into posts, or scaling content without losing authenticity.
 
-## How It Works
+## How to Use It
 
-1. **Collect** 3–5 writing samples where the person sounds most like themselves
-2. **Paste** the samples + the analysis prompt (included) into Claude or ChatGPT
-3. **Review** the profile it generates — check that the rules are specific and the quotes are real
-4. **Calibrate** — show the test paragraph to the person, ask "does this sound like you?", tweak what's off
-5. **Deploy** — paste the system prompt into whatever tool you use
+1. Gather 3–5 things you've written that feel like you (posts, emails, voice note transcripts — not your "best" content, the stuff that sounds most natural)
+2. Open the analysis prompt included in this skill and paste it into Claude or ChatGPT along with your samples
+3. You'll get back a Voice DNA profile with rules, templates, and a ready-to-use system prompt
+4. Test it — have AI write a paragraph and see if it sounds right. Tweak what's off
+5. Use the system prompt whenever you want AI to draft in your voice
 
-~60–90 minutes for the first run. 15–20 minutes for calibration. After that, every piece of AI-generated content sounds like them.
-
-## Who This Is For
-
-- Content teams building brand voice guidelines
-- Freelancers and agencies doing ghostwriting with AI
-- Founders who want their AI tools to actually sound like them
-- Anyone tired of AI writing that sounds like AI writing
-
-## Using It
-
-Everything you need is in the `extracting-voice-dna/` folder:
-
-- **`SKILL.md`** — The full process with tips and quality checks
-- **`analysis-prompt.md`** — The prompt you paste into AI with your writing samples
-- **`example-profile.md`** — What a finished Voice DNA profile looks like
-
-Start with `analysis-prompt.md`. That's the engine.
-
-## As a Claude Code Skill
-
-Copy the `extracting-voice-dna/` folder into `~/.claude/skills/` and Claude will have access to it in every session.
+Takes about an hour the first time. After that, every draft sounds like you.
