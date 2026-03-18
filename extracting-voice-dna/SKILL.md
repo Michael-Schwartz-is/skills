@@ -24,7 +24,7 @@ A repeatable method for extracting someone's authentic writing voice into a depl
 
 Five phases, each building on the previous. Skipping phases produces shallow profiles that drift under generation.
 
-1. **Collect** — Gather 3-5 authentic writing samples
+1. **Collect** — Find and gather authentic writing samples (10-20+ is ideal)
 2. **Analyze** — Run samples through the forensic analysis framework
 3. **Profile** — Synthesize into a structured Voice DNA Profile
 4. **Calibrate** — Test with a writing sample and get feedback
@@ -34,29 +34,42 @@ Total time: ~60-90 minutes first session, 15-20 minute calibration follow-up.
 
 ## Phase 1: Collect Writing Samples
 
-Quality of extraction is capped by quality of input. You need 3-5 pieces where the person felt most like themselves — not best-performing, not most polished.
+Quality of extraction is capped by quality of input. More samples = better profile. 10-20 posts gives the analysis enough surface area to separate real patterns from one-off behavior.
 
-### Good samples
+### Step 1: Find what already exists
 
-- Published posts where they wrote freely, not to a brief
+Before collecting new samples, check what's already saved:
+- Existing markdown files, notes, or drafts the person has saved locally
+- Google Docs, Notion pages, or other writing tools
+- Saved LinkedIn post drafts
+
+### Step 2: Extract from LinkedIn
+
+Go to the person's LinkedIn profile and pull their posts. This is the richest source for most people:
+- Use the Activity section on their LinkedIn profile to find their posts
+- Extract the full text of each post — not just the preview
+- Grab everything they've posted, then filter after. Don't pre-select
+- For clients: ask them to export their posts or share their profile URL
+
+### Step 3: Filter for authentic voice
+
+From the full collection, identify the posts where the person sounds most like themselves:
+- Posts they wrote freely, not to a brief or template
 - Long-form messages where they explained something they care about
-- Voice note transcriptions (gold — captures pre-self-edit thinking)
-- Threads or replies with real-time reactions
+- Voice note transcriptions (gold — captures thinking before self-editing)
+- Threads or replies where they were reacting in real time
 
-### Bad samples
-
+Filter out:
 - Content written/edited by others
 - Templated pieces (carousel posts, formula listicles)
 - Client or brand voice work
 - Very short pieces (under 100 words)
 
-### How to ask
+### If collecting from someone else
 
 Don't say "send your best writing" — that triggers self-editing. Instead:
 
-> "Send me 3-5 things you've written where you thought: this sounds exactly like me. Not your best-performing posts. The ones where the voice felt natural, like you were explaining something to a friend who'd actually get it."
-
-Minimum 3 samples works, but 5+ across different contexts (post, email, voice note) lets you separate actual patterns from context-specific behavior.
+> "Send me things you've written where you thought: this sounds exactly like me. Not your best-performing posts. The ones where the voice felt natural, like you were explaining something to a friend who'd actually get it. Posts, long emails, voice note transcripts — anything. More is better."
 
 ## Phase 2: Analyze
 
