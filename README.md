@@ -2,12 +2,6 @@
 
 Make AI write LinkedIn posts that actually sound like you.
 
-## The Problem
-
-You ask AI to "write in my style" and get back something that sounds like every other LinkedIn post. Generic hooks, bullet points, "here's what I learned" energy. It doesn't sound like you because AI has no idea how you actually write.
-
-## What This Does
-
 This is a process for extracting your real writing voice — your sentence rhythms, word choices, the way you open and close a post — and turning it into a prompt that AI can follow. You feed it a few things you've written, it analyzes the patterns, and you get back a profile that makes AI drafts sound like *you* wrote them.
 
 Works for your own voice or a client's. Great for first drafts, organizing messy thoughts into posts, or scaling content without losing authenticity.
