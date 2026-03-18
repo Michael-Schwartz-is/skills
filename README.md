@@ -8,8 +8,8 @@ Works for your own voice or a client's. Great for first drafts, organizing messy
 
 ## How to Use It
 
-1. Pull your LinkedIn posts — go to your profile's Activity section and extract the full text. Grab everything, the more the better (10-20+ posts is ideal)
-2. Filter for the ones that sound most like you — not best-performing, the ones where the voice felt natural
+1. Get the LinkedIn profile URL and extract the latest 20+ posts (the more the better)
+2. Filter for the ones that sound most natural — not best-performing, the ones where the voice felt like *them*
 3. Paste the analysis prompt (included in the skill) + your posts into Claude or ChatGPT
 4. You'll get back a Voice DNA profile with rules, templates, and a ready-to-use system prompt
 5. Test it — have AI write a paragraph and see if it sounds right. Tweak what's off

@@ -45,11 +45,10 @@ Before collecting new samples, check what's already saved:
 
 ### Step 2: Extract from LinkedIn
 
-Go to the person's LinkedIn profile and pull their posts. This is the richest source for most people:
-- Use the Activity section on their LinkedIn profile to find their posts
+Ask the person for their LinkedIn profile URL, then go extract their posts yourself:
+- Go to their Activity section and pull their latest 20+ posts
 - Extract the full text of each post — not just the preview
-- Grab everything they've posted, then filter after. Don't pre-select
-- For clients: ask them to export their posts or share their profile URL
+- Grab everything, then filter after. Don't pre-select
 
 ### Step 3: Filter for authentic voice
 
@@ -65,11 +64,11 @@ Filter out:
 - Client or brand voice work
 - Very short pieces (under 100 words)
 
-### If collecting from someone else
+### If collecting additional samples beyond LinkedIn
 
-Don't say "send your best writing" — that triggers self-editing. Instead:
+Ask for anything else they've written — long emails, voice note transcripts, Slack messages. Don't say "send your best writing" — that triggers self-editing. Instead:
 
-> "Send me things you've written where you thought: this sounds exactly like me. Not your best-performing posts. The ones where the voice felt natural, like you were explaining something to a friend who'd actually get it. Posts, long emails, voice note transcripts — anything. More is better."
+> "Send me anything you've written that felt natural — not your best stuff, the stuff that sounds like you. Emails, voice notes, anything."
 
 ## Phase 2: Analyze
 
