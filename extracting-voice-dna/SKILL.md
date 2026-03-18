@@ -45,10 +45,12 @@ Before collecting new samples, check what's already saved:
 
 ### Step 2: Extract from LinkedIn
 
-Ask the user for the person's LinkedIn profile URL, then scrape their posts:
-- Navigate to their Activity/posts section
-- Extract the full text of their latest 20+ posts
-- Save each post as-is — don't pre-select or filter yet
+LinkedIn blocks automated scraping, so the user needs to provide the posts. Ask them to do one of:
+- **Copy-paste** their latest 20+ posts into a file or the chat (most common)
+- **LinkedIn data export** — Settings → Get a copy of your data → includes all posts
+- **Share an existing doc** if they've already saved posts somewhere
+
+The goal is 20+ posts. More is better — it gives the analysis enough surface to separate real patterns from one-off behavior.
 
 ### Step 3: Filter for authentic voice
 
