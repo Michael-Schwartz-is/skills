@@ -8,7 +8,7 @@ Works for your own voice or a client's. Great for first drafts, organizing messy
 
 ## How to Use It
 
-1. Grab your latest 20+ LinkedIn posts — copy-paste them, or use LinkedIn's data export (Settings → Get a copy of your data)
+1. Give the agent a LinkedIn profile URL — it uses Apify to scrape the latest 20+ posts (or copy-paste them if you don't have Apify set up)
 2. Filter for the ones that sound most natural — not best-performing, the ones where the voice felt like *them*
 3. Paste the analysis prompt (included in the skill) + your posts into Claude or ChatGPT
 4. You'll get back a Voice DNA profile with rules, templates, and a ready-to-use system prompt

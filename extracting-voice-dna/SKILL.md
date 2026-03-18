@@ -45,12 +45,20 @@ Before collecting new samples, check what's already saved:
 
 ### Step 2: Extract from LinkedIn
 
-LinkedIn blocks automated scraping, so the user needs to provide the posts. Ask them to do one of:
-- **Copy-paste** their latest 20+ posts into a file or the chat (most common)
-- **LinkedIn data export** — Settings → Get a copy of your data → includes all posts
-- **Share an existing doc** if they've already saved posts somewhere
+Ask the user for the person's LinkedIn profile URL, then use Apify to scrape their posts:
 
-The goal is 20+ posts. More is better — it gives the analysis enough surface to separate real patterns from one-off behavior.
+1. Use an Apify LinkedIn post scraper actor (e.g. `apify/linkedin-profile-scraper` or search for a posts-specific actor)
+2. Call the Apify API to run the actor with the profile URL
+3. Pull the latest 20+ posts — more is better
+
+```bash
+# Example: run an Apify actor via CLI
+apify call <actor-id> --input='{"profileUrls": ["https://www.linkedin.com/in/username/"]}'
+```
+
+The user needs an Apify account and API token. If they don't have one, or if the scrape fails, fall back to:
+- **Copy-paste** — ask the user to paste their posts into a file or the chat
+- **LinkedIn data export** — Settings → Get a copy of your data
 
 ### Step 3: Filter for authentic voice
 
