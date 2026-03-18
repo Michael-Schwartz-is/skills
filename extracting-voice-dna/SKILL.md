@@ -45,10 +45,10 @@ Before collecting new samples, check what's already saved:
 
 ### Step 2: Extract from LinkedIn
 
-Ask the person for their LinkedIn profile URL, then go extract their posts yourself:
-- Go to their Activity section and pull their latest 20+ posts
-- Extract the full text of each post — not just the preview
-- Grab everything, then filter after. Don't pre-select
+Ask the user for the person's LinkedIn profile URL, then scrape their posts:
+- Navigate to their Activity/posts section
+- Extract the full text of their latest 20+ posts
+- Save each post as-is — don't pre-select or filter yet
 
 ### Step 3: Filter for authentic voice
 
