@@ -22,14 +22,13 @@ A repeatable method for extracting someone's authentic writing voice into a depl
 
 ## Process Overview
 
-Six phases, each building on the previous. Skipping phases produces shallow profiles that drift under generation.
+Five phases, each building on the previous. Skipping phases produces shallow profiles that drift under generation.
 
 1. **Collect** — Find and gather authentic writing samples (10-20+ is ideal)
-2. **Context** — Understand who this person is, their business, and their audience
-3. **Analyze** — Run samples through the forensic analysis framework
-4. **Profile** — Synthesize into a structured Voice DNA Profile
-5. **Calibrate** — Test with a writing sample and get feedback
-6. **Deploy** — Package as a system prompt and embed in workflow
+2. **Analyze** — Run samples through the forensic analysis framework
+3. **Profile** — Synthesize into a structured Voice DNA Profile
+4. **Calibrate** — Test with a writing sample and get feedback
+5. **Deploy** — Package as a system prompt and embed in workflow
 
 Total time: ~60-90 minutes first session, 15-20 minute calibration follow-up.
 
@@ -81,22 +80,7 @@ Ask for anything else they've written — long emails, voice note transcripts, S
 
 > "Send me anything you've written that felt natural — not your best stuff, the stuff that sounds like you. Emails, voice notes, anything."
 
-## Phase 2: Understand the Person
-
-Before analyzing writing patterns, you need context on who this person is. The same sentence structure means different things coming from a VC vs. a freelance designer. This context shapes how you interpret the voice and what the system prompt prioritizes.
-
-Have a conversation with the user to understand:
-
-- **Who they are** — role, title, what they actually do day to day
-- **Their business** — what they sell or build, who they serve, what makes them different
-- **Their audience** — who are they writing for on LinkedIn? Peers, prospects, investors, a mix?
-- **Their goal with content** — thought leadership, lead gen, building community, personal brand, all of the above?
-- **How they want to come across** — not "professional and approachable" (everyone says that). What do they want people to *feel* after reading their post?
-- **What they don't want to sound like** — equally important. "Don't sound like a guru," "don't sound salesy," etc.
-
-Save this context — it feeds into the analysis and shapes the system prompt. A voice profile without business context produces posts that sound like the person but say nothing relevant.
-
-## Phase 3: Analyze
+## Phase 2: Analyze
 
 Feed samples into the analysis prompt with the five forensic dimensions:
 
@@ -108,7 +92,7 @@ Feed samples into the analysis prompt with the five forensic dimensions:
 
 **Full analysis prompt:** See [analysis-prompt.md](analysis-prompt.md) — copy-paste ready.
 
-## Phase 4: Build the Profile
+## Phase 3: Build the Profile
 
 ### Quality checks
 
@@ -125,7 +109,7 @@ Feed samples into the analysis prompt with the five forensic dimensions:
 
 **Full example profile:** See [example-profile.md](example-profile.md) — fictional persona with all output sections: Voice Snapshot, Top 5 Signature Elements, Structural Constraints, Sentence Templates, Don't List, Archetype Profile, System Prompt, Calibration Note.
 
-## Phase 5: Calibrate
+## Phase 4: Calibrate
 
 The phase that separates useful from decorative. Built into the analysis prompt but run it properly:
 
@@ -142,7 +126,7 @@ Feedback categories and fixes:
 
 One round gets to ~85-90% accuracy. Two rounds: 95%+. Remaining refinement happens organically during use.
 
-## Phase 6: Deploy
+## Phase 5: Deploy
 
 Package as markdown with two components:
 
